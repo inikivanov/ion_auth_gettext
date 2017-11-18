@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lang\n"
+"POT-Creation-Date: 2017-11-11 16:59+0200\n"
+"PO-Revision-Date: 2017-11-11 17:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controllers/Auth.php:54 views/auth/login.php:1 views/auth/login.php:24
+#: views/login/login.php:12
+msgid "Login"
+msgstr "Вход"
+
+#: controllers/Auth.php:57 views/auth/login.php:9
+msgid "Email/Username:"
+msgstr "Потребител"
+
+#: controllers/Auth.php:58 views/auth/create_user.php:45
+#: views/auth/login.php:14
+msgid "Password:"
+msgstr ""
+
+#: controllers/Auth.php:113 controllers/Users.php:122
+msgid "Old Password"
+msgstr ""
+
+#: controllers/Auth.php:114 controllers/Auth.php:244 controllers/Users.php:123
+#: libraries/Ion_auth.php:210
+msgid "New Password"
+msgstr ""
+
+#: controllers/Auth.php:115 controllers/Auth.php:245 controllers/Users.php:124
+msgid "Confirm New Password"
+msgstr ""
+
+#: controllers/Auth.php:177 controllers/Auth.php:191 controllers/Auth.php:391
+#: views/auth/forgot_password.php:9
+msgid "Identity"
+msgstr ""
+
+#: controllers/Auth.php:179 controllers/Auth.php:392 controllers/Auth.php:394
+msgid "Email Address"
+msgstr ""
+
+#: controllers/Auth.php:193 controllers/Users.php:63 controllers/Users.php:118
+#: views/auth/index.php:10
+msgid "Email"
+msgstr ""
+
+#: controllers/Auth.php:283 controllers/Auth.php:359 controllers/Auth.php:501
+msgid "This form post did not pass our security checks."
+msgstr ""
+
+#: controllers/Auth.php:345
+msgid "confirmation"
+msgstr ""
+
+#: controllers/Auth.php:346
+msgid "user ID"
+msgstr ""
+
+#: controllers/Auth.php:377 views/auth/create_user.php:1
+#: views/auth/create_user.php:55
+#, fuzzy
+#| msgid "Created by"
+msgid "Create User"
+msgstr "Създаден от"
+
+#: controllers/Auth.php:388 controllers/Auth.php:493 views/auth/index.php:8
+msgid "First Name"
+msgstr ""
+
+#: controllers/Auth.php:389 controllers/Auth.php:494 views/auth/index.php:9
+msgid "Last Name"
+msgstr ""
+
+#: controllers/Auth.php:396 controllers/Auth.php:495 controllers/Users.php:62
+#: controllers/Users.php:117
+msgid "Phone"
+msgstr ""
+
+#: controllers/Auth.php:397 controllers/Auth.php:496
+msgid "Company Name"
+msgstr ""
+
+#: controllers/Auth.php:398 controllers/Auth.php:506 controllers/Users.php:60
+#: views/login/login.php:19
+msgid "Password"
+msgstr ""
+
+#: controllers/Auth.php:399 controllers/Auth.php:507
+msgid "Password Confirmation"
+msgstr ""
+
+#: controllers/Auth.php:482 views/auth/edit_user.php:1
+msgid "Edit User"
+msgstr ""
+
+#: controllers/Auth.php:612 views/auth/create_group.php:1
+#: views/auth/create_group.php:18
+#, fuzzy
+#| msgid "Created by"
+msgid "Create Group"
+msgstr "Създаден от"
+
+#: controllers/Auth.php:619 controllers/Auth.php:671
+msgid "Group Name"
+msgstr ""
+
+#: controllers/Auth.php:662 views/auth/edit_group.php:1
+msgid "Edit Group"
+msgstr ""
+
+#: controllers/Auth.php:678
+msgid "Group Saved"
+msgstr ""
+
+#: controllers/Login.php:27
+msgid "Login in Kwoter"
+msgstr ""
+
+#: controllers/Login.php:58
+msgid "Incorect Username or Password"
+msgstr ""
+
+#: controllers/Login.php:62
+msgid "Invalid Username or Password"
+msgstr ""
+
+#: controllers/Users.php:34 views/auth/index.php:1 views/menu.php:186
+#, fuzzy
+#| msgid "Username"
+msgid "Users"
+msgstr "Потребител"
+
+#: controllers/Users.php:46
+msgid "Kwoter - Register New User"
+msgstr ""
+
+#: controllers/Users.php:59 controllers/Users.php:116 views/login/login.php:16
+msgid "Username"
+msgstr "Потребител"
+
+#: controllers/Users.php:61
+msgid "Confirm Password"
+msgstr ""
+
+#: controllers/Users.php:82
+msgid "Succesfull Add New User"
+msgstr ""
+
+#: controllers/Users.php:100
+msgid "Kwoter - Edit User"
+msgstr ""
+
+#: controllers/Users.php:152
+msgid "And Password"
+msgstr ""
+
+#: controllers/Users.php:154
+msgid "Not and Password"
+msgstr ""
+
+#: controllers/Users.php:158
+msgid "Succesfull Update User"
+msgstr ""
+
+#: libraries/Ion_auth.php:145 libraries/Ion_auth.php:156
+msgid "Password Reset Email Sent"
+msgstr ""
+
+#: libraries/Ion_auth.php:152
+msgid "Forgotten Password Verification"
+msgstr ""
+
+#: libraries/Ion_auth.php:159 libraries/Ion_auth.php:164
+#: libraries/Ion_auth.php:168
+msgid "Unable to email the Reset Password link"
+msgstr ""
+
+#: libraries/Ion_auth.php:189 libraries/Ion_auth.php:218
+#: libraries/Ion_auth.php:241 libraries/Ion_auth.php:250
+#: models/Ion_auth_model.php:623 models/Ion_auth_model.php:652
+#: models/Ion_auth_model.php:683 models/Ion_auth_model.php:711
+#: models/Ion_auth_model.php:717
+msgid "Unable to Change Password"
+msgstr ""
+
+#: libraries/Ion_auth.php:201 libraries/Ion_auth.php:214
+#: models/Ion_auth_model.php:647 models/Ion_auth_model.php:706
+msgid "Password Successfully Changed"
+msgstr ""
+
+#: libraries/Ion_auth.php:291
+msgid "Unable to Create Account"
+msgstr ""
+
+#: libraries/Ion_auth.php:328
+msgid "Account Activation"
+msgstr ""
+
+#: libraries/Ion_auth.php:333
+msgid "Activation Email Sent. Please check your inbox or spam"
+msgstr ""
+
+#: libraries/Ion_auth.php:339
+msgid "Unable to Send Activation Email"
+msgstr ""
+
+#: libraries/Ion_auth.php:382
+msgid "Logged Out Successfully"
+msgstr ""
+
+#: models/Ion_auth_model.php:478 models/Ion_auth_model.php:510
+msgid "Unable to Activate Account"
+msgstr ""
+
+#: models/Ion_auth_model.php:505
+msgid "Account Activated"
+msgstr ""
+
+#: models/Ion_auth_model.php:531 models/Ion_auth_model.php:558
+msgid "Unable to De-Activate Account"
+msgstr ""
+
+#: models/Ion_auth_model.php:536
+msgid "You cannot De-Activate your self."
+msgstr ""
+
+#: models/Ion_auth_model.php:554
+msgid "Account De-Activated"
+msgstr ""
+
+#: models/Ion_auth_model.php:888
+msgid "Forgot pass expire"
+msgstr ""
+
+#: models/Ion_auth_model.php:932 models/Ion_auth_model.php:1855
+msgid "Identity Already Used or Invalid"
+msgstr ""
+
+#: models/Ion_auth_model.php:937
+#, fuzzy
+#| msgid "Default Font"
+msgid "Default group is not set"
+msgstr "Размер По Подразбиране"
+
+#: models/Ion_auth_model.php:945
+msgid "Invalid default group name set"
+msgstr ""
+
+#: models/Ion_auth_model.php:1019 models/Ion_auth_model.php:1082
+msgid "Incorrect Login"
+msgstr ""
+
+#: models/Ion_auth_model.php:1037
+msgid "Temporarily Locked Out.  Try again later."
+msgstr ""
+
+#: models/Ion_auth_model.php:1053
+msgid "Account is inactive"
+msgstr ""
+
+#: models/Ion_auth_model.php:1070
+msgid "Logged In Successfully"
+msgstr ""
+
+#: models/Ion_auth_model.php:1858 models/Ion_auth_model.php:1890
+msgid "Unable to Update Account Information"
+msgstr ""
+
+#: models/Ion_auth_model.php:1897
+msgid "Account Information Successfully Updated"
+msgstr ""
+
+#: models/Ion_auth_model.php:1925
+msgid "Unable to Delete User"
+msgstr ""
+
+#: models/Ion_auth_model.php:1932
+msgid "User Deleted"
+msgstr ""
+
+#: models/Ion_auth_model.php:2141
+msgid "Group name is a required field"
+msgstr ""
+
+#: models/Ion_auth_model.php:2149 models/Ion_auth_model.php:2200
+msgid "Group name already taken"
+msgstr ""
+
+#: models/Ion_auth_model.php:2166
+msgid "Group created Successfully"
+msgstr ""
+
+#: models/Ion_auth_model.php:2211
+msgid "Admin group name can not be changed"
+msgstr ""
+
+#: models/Ion_auth_model.php:2230
+msgid "Group details updated"
+msgstr ""
+
+#: models/Ion_auth_model.php:2254
+msgid "Can't delete the administrators' group"
+msgstr ""
+
+#: models/Ion_auth_model.php:2271
+msgid "Unable to delete group"
+msgstr ""
+
+#: models/Ion_auth_model.php:2278
+msgid "Group deleted"
+msgstr ""
+
+#: views/auth/change_password.php:1
+msgid "Change Password"
+msgstr ""
+
+#: views/auth/change_password.php:8
+msgid "Old Password:"
+msgstr ""
+
+#: views/auth/change_password.php:13 views/auth/reset_password.php:8
+#, php-format
+msgid "New Password (at least %s characters long):"
+msgstr ""
+
+#: views/auth/change_password.php:18 views/auth/reset_password.php:13
+msgid "Confirm New Password:"
+msgstr ""
+
+#: views/auth/change_password.php:23 views/auth/reset_password.php:20
+msgid "Change"
+msgstr ""
+
+#: views/auth/create_group.php:2 views/auth/edit_group.php:2
+msgid "Please enter the group information below."
+msgstr ""
+
+#: views/auth/create_group.php:9 views/auth/edit_group.php:9
+msgid "Group Name:"
+msgstr ""
+
+#: views/auth/create_group.php:14 views/auth/edit_group.php:14
+msgid "Description:"
+msgstr ""
+
+#: views/auth/create_user.php:2 views/auth/edit_user.php:2
+msgid "Please enter the user's information below."
+msgstr ""
+
+#: views/auth/create_user.php:9 views/auth/edit_user.php:9
+msgid "First Name:"
+msgstr ""
+
+#: views/auth/create_user.php:14 views/auth/edit_user.php:14
+msgid "Last Name:"
+msgstr ""
+
+#: views/auth/create_user.php:21
+msgid "Identity:"
+msgstr ""
+
+#: views/auth/create_user.php:30 views/auth/edit_user.php:19
+msgid "Company Name:"
+msgstr ""
+
+#: views/auth/create_user.php:35
+msgid "Email:"
+msgstr ""
+
+#: views/auth/create_user.php:40 views/auth/edit_user.php:24
+msgid "Phone:"
+msgstr ""
+
+#: views/auth/create_user.php:50
+msgid "Confirm Password:"
+msgstr ""
+
+#: views/auth/deactivate_user.php:1
+msgid "Deactivate User"
+msgstr ""
+
+#: views/auth/deactivate_user.php:2
+#, php-format
+msgid "Are you sure you want to deactivate the user '%s'"
+msgstr ""
+
+#: views/auth/deactivate_user.php:7
+msgid "Yes:"
+msgstr ""
+
+#: views/auth/deactivate_user.php:9
+msgid "No:"
+msgstr ""
+
+#: views/auth/deactivate_user.php:16 views/auth/forgot_password.php:13
+#: views/users/edit_user.php:28 views/users/register_user.php:21
+msgid "Submit"
+msgstr ""
+
+#: views/auth/edit_group.php:18
+msgid "Save Group"
+msgstr ""
+
+#: views/auth/edit_user.php:29
+msgid "Password: (if changing password)"
+msgstr ""
+
+#: views/auth/edit_user.php:34
+msgid "Confirm Password: (if changing password)"
+msgstr ""
+
+#: views/auth/edit_user.php:40
+msgid "Member of groups"
+msgstr ""
+
+#: views/auth/edit_user.php:64
+msgid "Save User"
+msgstr ""
+
+#: views/auth/email/activate.tpl.php:3
+#, php-format
+msgid "Activate account for %s"
+msgstr ""
+
+#: views/auth/email/activate.tpl.php:4
+#: views/auth/email/forgot_password.tpl.php:4
+#, php-format
+msgid "Please click this link to %s."
+msgstr ""
+
+#: views/auth/email/activate.tpl.php:4
+msgid "Activate Your Account"
+msgstr ""
+
+#: views/auth/email/forgot_password.tpl.php:3
+#, php-format
+msgid "Reset Password for %s"
+msgstr ""
+
+#: views/auth/email/forgot_password.tpl.php:4
+msgid "Reset Your Password"
+msgstr ""
+
+#: views/auth/email/new_password.tpl.php:3
+#, php-format
+msgid "New Password for %s"
+msgstr ""
+
+#: views/auth/email/new_password.tpl.php:5
+#, php-format
+msgid "Your password has been reset to: %s"
+msgstr ""
+
+#: views/auth/forgot_password.php:1
+msgid "Forgot Password"
+msgstr ""
+
+#: views/auth/forgot_password.php:2
+#, php-format
+msgid "Please enter your %s so we can send you an email to reset your password."
+msgstr ""
+
+#: views/auth/forgot_password.php:9
+#, php-format
+msgid "%s:"
+msgstr ""
+
+#: views/auth/index.php:2
+msgid "Below is a list of the users."
+msgstr ""
+
+#: views/auth/index.php:11
+msgid "Group"
+msgstr ""
+
+#: views/auth/index.php:12
+msgid "Status"
+msgstr ""
+
+#: views/auth/index.php:13
+msgid "Edit"
+msgstr ""
+
+#: views/auth/index.php:25
+msgid "Active"
+msgstr ""
+
+#: views/auth/index.php:25
+msgid "Deactive"
+msgstr ""
+
+#: views/auth/index.php:31
+msgid "Create new user"
+msgstr ""
+
+#: views/auth/index.php:31
+msgid "Create New Group"
+msgstr ""
+
+#: views/auth/login.php:2
+msgid "Please login with your email/username and password below."
+msgstr ""
+
+#: views/auth/login.php:19
+msgid "Remember Me:"
+msgstr ""
+
+#: views/auth/login.php:28
+msgid "Forgot your password?"
+msgstr ""
+
+#: views/login/login.php:11 views/login/login.php:39
+#, fuzzy
+#| msgid "Footer"
+msgid "Kwoter"
+msgstr "Футър"
+
+#: views/login/login.php:26
+msgid "Remember me"
+msgstr ""
+
+#: views/login/login.php:30
+msgid "Sign In"
+msgstr ""
+
+#: views/login/login.php:39
+msgid "Copyright"
+msgstr ""
+
+#: views/menu.php:8
+msgid "Bridge"
+msgstr ""
+
+#: views/menu.php:13
+msgid "Lead Groups"
+msgstr ""
+
+#: views/menu.php:19
+msgid "New Lead Groups"
+msgstr ""
+
+#: views/menu.php:24
+msgid "Show Lead Groups"
+msgstr ""
+
+#: views/menu.php:32
+msgid "Lead Partners"
+msgstr ""
+
+#: views/menu.php:38
+msgid "New Lead Partner"
+msgstr ""
+
+#: views/menu.php:43
+msgid "Show Lead Partners"
+msgstr ""
+
+#: views/menu.php:48
+msgid "Show Lead Partner History"
+msgstr ""
+
+#: views/menu.php:57
+msgid "Leads"
+msgstr ""
+
+#: views/menu.php:63
+msgid "New Lead"
+msgstr ""
+
+#: views/menu.php:68
+msgid "Show Lead"
+msgstr ""
+
+#: views/menu.php:73
+msgid "Renewal Leads"
+msgstr ""
+
+#: views/menu.php:78
+msgid "Show Lead Sources"
+msgstr ""
+
+#: views/menu.php:83
+msgid "Track Lead Views"
+msgstr ""
+
+#: views/menu.php:88
+msgid "Bulk Assign Renewals"
+msgstr ""
+
+#: views/menu.php:97 views/menu.php:103
+msgid "Raports"
+msgstr ""
+
+#: views/menu.php:108
+msgid "New Sales Predictor"
+msgstr ""
+
+#: views/menu.php:117
+msgid "Wallboards"
+msgstr ""
+
+#: views/menu.php:123
+msgid "New Wallboard"
+msgstr ""
+
+#: views/menu.php:128
+msgid "Show Wallboards"
+msgstr ""
+
+#: views/menu.php:133
+msgid "Live Target Tracker"
+msgstr ""
+
+#: views/menu.php:142
+msgid "Insurers"
+msgstr ""
+
+#: views/menu.php:148
+msgid "New Insurer"
+msgstr ""
+
+#: views/menu.php:153
+msgid "Show Insurers"
+msgstr ""
+
+#: views/menu.php:162
+msgid "Agents"
+msgstr ""
+
+#: views/menu.php:168
+msgid "New Agent"
+msgstr ""
+
+#: views/menu.php:173
+msgid "Show Agents"
+msgstr ""
+
+#: views/menu.php:178
+msgid "Show Monthly Targets"
+msgstr ""
+
+#: views/menu.php:192
+msgid "New User"
+msgstr ""
+
+#: views/menu.php:197
+msgid "Show Users"
+msgstr ""
+
+#: views/menu.php:202
+msgid "Create Permissions Group"
+msgstr ""
+
+#: views/menu.php:207
+msgid "Show Permissions Group"
+msgstr ""
+
+#: views/menu.php:212
+#, fuzzy
+#| msgid "Created by"
+msgid "Create Team"
+msgstr "Създаден от"
+
+#: views/menu.php:217
+msgid "Show Teams"
+msgstr ""
+
+#: views/menu.php:222
+msgid "Create Auto-assign Rule"
+msgstr ""
+
+#: views/menu.php:227
+msgid "Show Auto-assign Rules"
+msgstr ""
+
+#: views/menu.php:235
+msgid "Delivery"
+msgstr ""
+
+#: views/menu.php:241
+msgid "Show All Deliveries"
+msgstr ""
+
+#: views/menu.php:249
+msgid "System Settings"
+msgstr "Системни настройки"
+
+#: views/menu.php:255
+msgid "Calendar"
+msgstr ""
+
+#: views/menu.php:260
+msgid "Show Lead Statuses"
+msgstr ""
+
+#: views/menu.php:265
+msgid "System Info"
+msgstr ""
+
+#: views/menu.php:270
+msgid "Show Fields"
+msgstr ""
+
+#: views/menu.php:275
+msgid "Links"
+msgstr "Бързи Връзки"
+
+#: views/menu.php:280
+msgid "Services"
+msgstr "Услуги"
+
+#: views/menu.php:285
+msgid "DB Tables and Columns"
+msgstr ""
+
+#: views/menu.php:290
+msgid "DB Show Columns"
+msgstr ""
+
+#: views/menu.php:295
+msgid "Show Log"
+msgstr ""
+
+#: views/menu.php:300
+msgid "Show DB Log"
+msgstr ""
+
+#: views/menu.php:305
+msgid "Linked Leads Criteria"
+msgstr ""
+
+#: views/menu.php:310
+msgid "OpenGI Log"
+msgstr ""
+
+#~ msgid "View more"
+#~ msgstr "Виж повече"
+
+#~ msgid "There is no posts in this category"
+#~ msgstr "Няма Публикации в категория"
+
+#~ msgid "Older Comments"
+#~ msgstr "По-стари коментари"
+
+#~ msgid "Newer Comments"
+#~ msgstr "По-нови коментари"
+
+#~ msgid "About Us"
+#~ msgstr "Кои Сме Ние"
+
+#~ msgid "Contacts"
+#~ msgstr "Контакти"
+
+#~ msgid "Work Time"
+#~ msgstr "Работно Време"
+
+#~ msgid "Primary"
+#~ msgstr "Основно"
+
+#~ msgid "Font"
+#~ msgstr "Шрифт"
+
+#~ msgid "Decrease Font"
+#~ msgstr "Умаляване на Шрифта"
+
+#~ msgid "Increase Font"
+#~ msgstr "Увеличаване на шрифта"
+
+#~ msgid "Eye Clinic \"Day\""
+#~ msgstr "Очна Клиника \"Ден\""
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "Резултати от търсене за : %s"
+
+#~ msgid "Search"
+#~ msgstr "Търсене"
+
+#~ msgid "Gallery"
+#~ msgstr "Галерия"
+
+#~ msgid "Posted by"
+#~ msgstr "Публикувано от"
+
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+#~ msgid "Tags"
+#~ msgstr "Етикети"
+
+#~ msgid "No tags"
+#~ msgstr "Няма Етикети"
+
+#~ msgid "Appointment Page"
+#~ msgstr "Страница за регистрация"
+
+#~ msgid "Contact Us Page"
+#~ msgstr "Страница Контакт с нас"
+
+#~ msgid "Diagnostics Page"
+#~ msgstr "Страница Диагностика"
+
+#~ msgid "Gallery Page"
+#~ msgstr "Страница с Галерия"
+
+#~ msgid "Home Page"
+#~ msgstr "Начална Страница"
+
+#~ msgid "Page with sidebar"
+#~ msgstr "Страница със странична лента"
+
+#~ msgid "Team List Page"
+#~ msgstr "Страница с лист на служители"
+
+#~ msgid "Team Single Page"
+#~ msgstr "Страница със Служител"
+
+#~ msgid "About Us Page"
+#~ msgstr "Страница За нас"
+
+#~ msgid "News List Page"
+#~ msgstr "Страница Новини Списък"
+
+#~ msgid "News Single Page"
+#~ msgstr "Страница Единична Новина"
